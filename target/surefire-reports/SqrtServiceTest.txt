@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: SqrtServiceTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.066 s <<< FAILURE! - in SqrtServiceTest
+coolMethodName{int, int}[1]  Time elapsed: 0.025 s  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: Error converting parameter at index 0: Failed to convert String "100;900" to type java.lang.Integer
+Caused by: org.junit.jupiter.params.converter.ArgumentConversionException: Failed to convert String "100;900" to type java.lang.Integer
+Caused by: java.lang.NumberFormatException: For input string: "100;900"
+
+coolMethodName{int, int}[2]  Time elapsed: 0.001 s  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: Error converting parameter at index 0: Failed to convert String "10;99" to type java.lang.Integer
+Caused by: org.junit.jupiter.params.converter.ArgumentConversionException: Failed to convert String "10;99" to type java.lang.Integer
+Caused by: java.lang.NumberFormatException: For input string: "10;99"
+
+coolMethodName{int, int}[3]  Time elapsed: 0.001 s  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: Error converting parameter at index 0: Failed to convert String "200;300" to type java.lang.Integer
+Caused by: org.junit.jupiter.params.converter.ArgumentConversionException: Failed to convert String "200;300" to type java.lang.Integer
+Caused by: java.lang.NumberFormatException: For input string: "200;300"
+
