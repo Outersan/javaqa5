@@ -14,9 +14,10 @@ public class SqrtServiceTest {
     public void shouldCalcExact(int x, int y) {
         SqrtService service = new SqrtService();
 
-        int expected = ;
+        int expected = 1;
         int actual = service.calcSqrt(x,y);
 
         Assertions.assertEquals(expected, actual);
     }
 }
+
